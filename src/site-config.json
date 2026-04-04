@@ -1,0 +1,524 @@
+{
+  "business": {
+    "name": "Horizon Demolition",
+    "phone": "555-dem-r90",
+    "category": "demolition",
+    "city": "Houston",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "demolition-trust-navy",
+      "categoryGroup": "demolition",
+      "name": "Trust Navy",
+      "recipeFile": "demolition/trust-navy.astro",
+      "colors": {
+        "primary": "#DC2626",
+        "primaryDark": "#991B1B",
+        "primaryLight": "#f6c9c9",
+        "secondary": "#bb2020",
+        "accent": "#F97316",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#DC2626",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Oswald",
+        "headingWeight": "700",
+        "bodyFont": "Roboto",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "demolition/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Houston Demolition Done Right",
+      "heroSubline": "Horizon Demolition clears the way for your next project. Serving Houston with precision demolition since 2012.",
+      "aboutTitle": "Built on Grit & Reliability",
+      "aboutText": [
+        "Founded in 2012, Horizon Demolition started with two trucks and a commitment to doing tough jobs the right way. We've grown by earning trust—one controlled collapse at a time.",
+        "Our crews train weekly on Houston-specific challenges: humidity-warped structures, flood-damaged foundations, and the unique layouts of mid-century ranch homes. We don't just tear down—we strategize.",
+        "When Hurricane Harvey hit, we volunteered demo crews for emergency structural removals. That's how we operate—as part of this community."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Knowledge",
+          "description": "We know Houston's soil types, flood zones, and permit requirements—critical for efficient demolitions."
+        },
+        {
+          "title": "No Hidden Costs",
+          "description": "Fixed-price quotes include debris hauling and site grading—standard on every project."
+        },
+        {
+          "title": "Precision Equipment",
+          "description": "Low-height excavators for tight suburban lots, dust suppression systems for urban tear-downs."
+        },
+        {
+          "title": "Same-Day Debris Removal",
+          "description": "Our fleet of dump trucks means no waiting—we clear sites completely within 24 hours."
+        }
+      ],
+      "ctaHeadline": "Need Space Cleared?",
+      "ctaSubline": "Get a same-day quote for your demolition project. Call 555-DEM-R90 now."
+    },
+    "services": [
+      {
+        "slug": "residential-demolition",
+        "name": "Residential Demolition",
+        "shortDescription": "Complete home removals with zero neighborhood disruption.",
+        "description": "Houston's mix of aging ranch homes and newer McMansions demands adaptable demolition strategies. We specialize in full residential tear-downs from the 1950s brick ranches of The Heights to modern Pearland subdivisions.\n\nOur process begins with utility disconnections coordinated with CenterPoint Energy—a step many overlook. We then implement erosion controls critical for Houston's heavy rains. Selective deconstruction preserves reusable materials when possible, like heart pine flooring from mid-century homes.\n\nFinal grading matches Houston's flat topography, preventing future drainage issues. We've demolished over 400 homes across Harris County without a single code violation.",
+        "process": [
+          "Step 1: Permitting & utility disconnections (3-5 business days)",
+          "Step 2: Hazardous material abatement (asbestos/lead testing included)",
+          "Step 3: Structural demolition (1-3 days depending on home size)",
+          "Step 4: Site grading & final inspection"
+        ],
+        "benefits": [
+          "Preservation of reusable materials when possible",
+          "Stormwater runoff controls per Harris County regulations",
+          "Heritage oak tree protection in established neighborhoods",
+          "Complete foundation removal (no hidden costs)"
+        ],
+        "faq": [
+          {
+            "question": "How long does a typical Houston home demolition take?",
+            "answer": "Most 2,000 sq ft homes take 2-3 days. Factors like brick vs. wood construction add variance—we provide exact timelines after site evaluation."
+          },
+          {
+            "question": "Do you handle homes damaged by flooding?",
+            "answer": "Yes—we're FEMA-certified for flood-damage demolitions and know Houston's high-water marks. Insurance documentation assistance available."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-demolition",
+        "name": "Commercial Demolition",
+        "shortDescription": "Strategic tear-downs for Houston's evolving business districts.",
+        "description": "From Midtown's aging retail plazas to Katy's outdated strip centers, we execute commercial demolitions that prepare sites for redevelopment. Houston's rapid growth means buildings often outlive their usefulness faster than expected.\n\nWe specialize in tight urban demolitions near landmarks like the Museum District, using compact equipment to minimize disruption. For suburban sites like Sugar Land's First Colony Mall area, we implement noise-reduction strategies during school hours.\n\nEvery project includes concrete slab removal and soil testing—critical for Houston's clay-heavy soils. Our team coordinates directly with general contractors to align with construction timelines.",
+        "process": [
+          "Step 1: Site assessment & hazardous material survey",
+          "Step 2: Utility disconnections (including underground lines)",
+          "Step 3: Structural demolition with dust containment",
+          "Step 4: Debris sorting for recycling (required by Houston ordinance)"
+        ],
+        "benefits": [
+          "After-hours work available for high-traffic areas",
+          "Concrete crushing for reuse as road base",
+          "Detailed post-demolition surveys for developers",
+          "Storm drain protection during demolition"
+        ],
+        "faq": [
+          {
+            "question": "Can you demolish part of a structure for renovations?",
+            "answer": "Absolutely—we frequently handle selective demolitions for Houston restaurant remodels and retail space reconfigurations."
+          },
+          {
+            "question": "How do you handle parking lot demolitions?",
+            "answer": "Our asphalt planers remove lots in layers, allowing reuse of aggregate materials. We coordinate with Houston's stormwater regulations for repaving."
+          }
+        ]
+      },
+      {
+        "slug": "interior-demolition",
+        "name": "Interior Demolition",
+        "shortDescription": "Precise removal of walls, floors, and fixtures without structural impact.",
+        "description": "Houston's booming renovation market demands surgical interior demolitions. We specialize in gutting spaces while preserving historic elements—common in Montrose bungalows and downtown lofts.\n\nOur teams are trained to identify load-bearing walls in Houston's varied construction styles. Dust containment systems protect neighboring businesses in multi-tenant buildings. For high-rises, we implement strict debris chute protocols.\n\nMaterials are sorted onsite: drywall to Houston's recycling centers, salvaged wood to local reclaimers. We've completed over 200 interior demolitions for residential and commercial clients with zero structural incidents.",
+        "process": [
+          "Step 1: Structural assessment (identify load-bearing elements)",
+          "Step 2: Hazardous material testing (required for pre-1978 buildings)",
+          "Step 3: Selective demolition with dust barriers",
+          "Step 4: Daily debris removal via service elevators/chutes"
+        ],
+        "benefits": [
+          "Preservation of original hardwood floors when requested",
+          "After-hours work for retail/office spaces",
+          "Metal fixture recycling (donated to Houston Habitat when possible)",
+          "No structural vibration—critical for adjacent tenants"
+        ],
+        "faq": [
+          {
+            "question": "Can you remove kitchen/bathroom fixtures separately?",
+            "answer": "Yes—we catalog reusable items for donation to Houston charities when clients request it."
+          },
+          {
+            "question": "How do you handle asbestos in older Houston buildings?",
+            "answer": "Our licensed abatement team handles all containment and disposal per Texas regulations—never subcontractors."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-removal",
+        "name": "Concrete Removal",
+        "shortDescription": "Complete slab and foundation elimination—no half measures.",
+        "description": "Houston's expansive clay soils wreak havoc on concrete over time. We remove failing slabs, driveways, and foundations with specialized equipment that prevents collateral damage.\n\nFor suburban homes in The Woodlands, we use smaller excavators to preserve landscaping. In urban areas like the East End, our concrete crushers create reusable aggregate onsite—reducing dump truck trips through neighborhoods.\n\nEvery project includes soil compaction testing. This prevents future settling issues common in Houston's moisture-heavy environment. We've removed over 300,000 sq ft of concrete across the metro area.",
+        "process": [
+          "Step 1: Slab inspection for rebar placement",
+          "Step 2: Breaking and removal (mechanical or manual based on site constraints)",
+          "Step 3: Debris sorting (concrete to recycling facilities)",
+          "Step 4: Subsoil inspection and grading"
+        ],
+        "benefits": [
+          "Minimal vibration for adjacent structures",
+          "Onsite concrete crushing when space allows",
+          "Root protection for mature trees",
+          "Post-removal soil stabilization"
+        ],
+        "faq": [
+          {
+            "question": "Can you remove only part of a concrete slab?",
+            "answer": "Yes—we frequently handle partial removals for Houston pool installations or drainage corrections."
+          },
+          {
+            "question": "Do you repair sprinkler systems damaged during removal?",
+            "answer": "We mark all irrigation lines beforehand and coordinate with landscaping crews for repairs—standard in our Katy service area."
+          }
+        ]
+      },
+      {
+        "slug": "swimming-pool-removal",
+        "name": "Swimming Pool Removal",
+        "shortDescription": "Complete pool demolitions that restore usable yard space.",
+        "description": "Houston's humidity accelerates pool deterioration—we remove hundreds annually across Sugar Land and Memorial areas. Our process addresses the region's unique challenges.\n\nHigh groundwater tables demand careful backfilling to prevent future sinkholes. We use compact equipment to navigate tight suburban lots common in Houston's master-planned communities. All permits include Harris County engineering reviews.\n\nDebris is crushed onsite when possible, reducing neighborhood truck traffic. Final grading promotes proper drainage—critical for Houston's heavy rainfall. We offer two methods: full removal (recommended) or partial fill-in for tight budgets.",
+        "process": [
+          "Step 1: Water drainage (recycled when possible)",
+          "Step 2: Structural demolition (gunite or vinyl)",
+          "Step 3: Debris removal and recycling",
+          "Step 4: Engineered backfill with compaction testing"
+        ],
+        "benefits": [
+          "Drought-resistant backfill materials",
+          "No hidden debris charges—complete removal guaranteed",
+          "Coordination with HOA architectural committees",
+          "Final grade matches Houston's flat topography"
+        ],
+        "faq": [
+          {
+            "question": "How long does a typical Houston pool removal take?",
+            "answer": "Most residential pools take 3-5 days. Gunite demolitions may require additional time for rebar processing."
+          },
+          {
+            "question": "Can you preserve decking during removal?",
+            "answer": "Yes—we frequently salvage concrete decking for reuse as patio space when structurally sound."
+          }
+        ]
+      },
+      {
+        "slug": "emergency-demolition",
+        "name": "Emergency Demolition",
+        "shortDescription": "24/7 structural collapse response for Houston properties.",
+        "description": "When hurricanes, fires, or structural failures strike, we mobilize immediately. Houston's climate demands rapid response—delays can mean further damage during heavy rains.\n\nOur team is FEMA-certified and maintains standby equipment during hurricane season (June-November). We've handled emergency demolitions from Harvey-flooded homes in Meyerland to fire-damaged Montrose apartments.\n\nSafety is prioritized above speed. We stabilize adjacent structures before beginning—a critical step in Houston's dense neighborhoods. All work complies with Harris County emergency protocols while expediting insurance processes.",
+        "process": [
+          "Step 1: Immediate site stabilization (tarping, shoring)",
+          "Step 2: Hazard assessment (gas lines, chemical storage)",
+          "Step 3: Controlled demolition with debris containment",
+          "Step 4: Documentation for insurance claims"
+        ],
+        "benefits": [
+          "24/7 dispatch with 2-hour response guarantee",
+          "Coordination with Houston fire/police departments",
+          "Insurance documentation assistance",
+          "Temporary erosion controls for Houston's heavy rains"
+        ],
+        "faq": [
+          {
+            "question": "Are you available after normal business hours?",
+            "answer": "Our emergency line (555-DEM-R90) is staffed 24/7—we've responded to midnight calls for collapsed roofs after Houston thunderstorms."
+          },
+          {
+            "question": "Do you board up properties after demolition?",
+            "answer": "Yes—all emergency sites receive temporary security measures per Houston ordinance requirements."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Residential Demolition",
+        "text": "Horizon demolished our 1962 Meyerland ranch home to make way for new construction. They salvaged the original oak flooring for reuse and handled all the flood zone paperwork. Crew worked 6am-3pm to beat the summer heat—professional start to finish.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Lisa R.",
+        "rating": 5,
+        "service": "Swimming Pool Removal",
+        "text": "Our Katy backyard looks brand new after pool removal. They crushed the gunite onsite and regraded properly—unlike our neighbors who used a cheaper crew and now have drainage issues. Worth every penny.",
+        "date": "2025-02-28"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Commercial Demolition",
+        "text": "Demolished our aging Montrose retail space in 3 days with zero disruption to adjacent businesses. Their dust control system was impressive—customers next door never knew we were working. Will use them for our next Houston project.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Danielle K.",
+        "rating": 5,
+        "service": "Interior Demolition",
+        "text": "Gutted our River Oaks condo for a full remodel. Horizon protected the original brick walls and hardwood subfloors we wanted to keep. Their crew cleaned up daily—no construction debris in common areas.",
+        "date": "2024-11-22"
+      },
+      {
+        "name": "Marcus W.",
+        "rating": 5,
+        "service": "Emergency Demolition",
+        "text": "When our restaurant's roof collapsed after heavy rains, Horizon had the site secured and demolished within 12 hours. Their insurance documentation helped speed up our claim. Lifesavers.",
+        "date": "2024-09-05"
+      },
+      {
+        "name": "Sarah L.",
+        "rating": 5,
+        "service": "Concrete Removal",
+        "text": "Removed 1,200 sq ft of failing driveway in The Woodlands without damaging any of our live oaks. They recycled all the concrete and even matched the soil grade to our landscaping. Textbook execution.",
+        "date": "2024-08-17"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Houston Demolition Contractors | Horizon Demolition TX",
+        "description": "Full-service demolition company serving Houston since 2012. Residential, commercial, and emergency demolition with complete site clearance."
+      },
+      "about": {
+        "title": "About Horizon Demolition | Houston Demolition Experts",
+        "description": "Learn how our Houston-based demolition team combines local knowledge with precision equipment for controlled, efficient property clearing."
+      },
+      "services": {
+        "title": "Demolition Services in Houston | Horizon Demolition TX",
+        "description": "Complete demolition solutions for Houston homes and businesses—from full tear-downs to selective interior removals with debris recycling."
+      },
+      "contact": {
+        "title": "Contact Houston Demolition Pros | Horizon Demolition",
+        "description": "Get a fast quote for your Houston demolition project. Call our local team at 555-DEM-R90 for residential or commercial demolition services."
+      },
+      "reviews": {
+        "title": "Houston Demolition Reviews | Horizon Demolition TX",
+        "description": "See what Houston homeowners and businesses say about our demolition services—rated 5 stars for residential and commercial projects."
+      },
+      "service-areas": {
+        "title": "Houston Demolition Service Areas | Horizon Demolition",
+        "description": "Serving Houston metro including Sugar Land, Katy, The Woodlands, Pearland, and League City with complete demolition services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Sugar Land",
+        "slug": "sugar-land-tx",
+        "state": "TX",
+        "content": "Horizon Demolition proudly serves Sugar Land, TX, a thriving city known for its master-planned communities built in the 1990s and 2000s. Our team specializes in residential and commercial demolition, ensuring safe and efficient removal of structures to make way for new developments. With Sugar Land's rapid growth, we understand the importance of timely and environmentally responsible demolition services. Whether it's clearing land for new homes or removing outdated commercial buildings, Horizon Demolition has the expertise to handle any project in Sugar Land.",
+        "localContext": "Sugar Land features upscale neighborhoods, top-rated schools, and a strong corporate presence, making it a prime location for redevelopment.",
+        "nearbyAreas": [
+          "Missouri City",
+          "Stafford",
+          "Richmond"
+        ]
+      },
+      {
+        "city": "Katy",
+        "slug": "katy-tx",
+        "state": "TX",
+        "content": "Horizon Demolition provides expert demolition services in Katy, TX, a fast-growing city with planned communities built from the 2000s to the 2020s. Our team is experienced in handling residential, commercial, and industrial demolition projects, ensuring compliance with local regulations. Katy's expanding infrastructure demands precise demolition work, and we deliver with professionalism and care. From single-family homes to large-scale commercial sites, Horizon Demolition is your trusted partner in Katy.",
+        "localContext": "Katy is known for its family-friendly neighborhoods, excellent schools, and proximity to major highways, driving demand for new construction.",
+        "nearbyAreas": [
+          "Cypress",
+          "Fulshear",
+          "Brookshire"
+        ]
+      },
+      {
+        "city": "The Woodlands",
+        "slug": "the-woodlands-tx",
+        "state": "TX",
+        "content": "Horizon Demolition serves The Woodlands, TX, a premier master-planned community with homes built from the 1980s to the present. Our demolition services cater to both residential and commercial properties, ensuring smooth transitions for renovations or new builds. The Woodlands' unique blend of natural beauty and urban development requires careful planning, and our team excels in delivering precision demolition. Trust Horizon Demolition for all your demolition needs in this thriving community.",
+        "localContext": "The Woodlands is celebrated for its lush greenery, top-tier amenities, and a strong sense of community, making it a hotspot for redevelopment.",
+        "nearbyAreas": [
+          "Spring",
+          "Conroe",
+          "Magnolia"
+        ]
+      },
+      {
+        "city": "Pearland",
+        "slug": "pearland-tx",
+        "state": "TX",
+        "content": "Horizon Demolition is proud to serve Pearland, TX, a rapidly growing suburban area with developments from the 1990s and 2000s. Our team specializes in residential and light commercial demolition, helping homeowners and businesses prepare for new projects. Pearland's expanding population and infrastructure require reliable demolition services, and we deliver with efficiency and safety in mind. Whether it's a small home tear-down or a larger commercial site, Horizon Demolition has you covered in Pearland.",
+        "localContext": "Pearland offers a mix of suburban comfort and urban convenience, with easy access to Houston and a thriving local economy.",
+        "nearbyAreas": [
+          "Friendswood",
+          "Alvin",
+          "Manvel"
+        ]
+      },
+      {
+        "city": "League City",
+        "slug": "league-city-tx",
+        "state": "TX",
+        "content": "Horizon Demolition provides top-notch demolition services in League City, TX, a city with newer developments from the 2000s. Our team is skilled in handling residential and commercial demolition projects, ensuring minimal disruption to the community. League City's growth as a residential and commercial hub demands expert demolition services, and we rise to the challenge. From outdated homes to commercial buildings, Horizon Demolition delivers quality results in League City.",
+        "localContext": "League City is a waterfront community with a strong emphasis on family-friendly living and economic growth.",
+        "nearbyAreas": [
+          "Clear Lake",
+          "Dickinson",
+          "Kemah"
+        ]
+      },
+      {
+        "city": "Missouri City",
+        "slug": "missouri-city-tx",
+        "state": "TX",
+        "content": "Horizon Demolition serves Missouri City, TX, a diverse community with a mix of older and newer developments. Our demolition services cater to both residential and commercial properties, helping to pave the way for new growth. Missouri City's strategic location near Houston makes it a prime area for redevelopment, and our team is ready to assist with any demolition project. Trust Horizon Demolition for reliable and efficient services in Missouri City.",
+        "localContext": "Missouri City offers a blend of suburban charm and urban accessibility, with a strong focus on community development.",
+        "nearbyAreas": [
+          "Sugar Land",
+          "Stafford",
+          "Rosenberg"
+        ]
+      },
+      {
+        "city": "Cypress",
+        "slug": "cypress-tx",
+        "state": "TX",
+        "content": "Horizon Demolition is proud to serve Cypress, TX, a rapidly expanding area with numerous new developments. Our team specializes in residential and commercial demolition, ensuring smooth transitions for new construction. Cypress' growth as a residential hotspot demands expert demolition services, and we deliver with precision and care. Whether it's a single-family home or a commercial property, Horizon Demolition is your trusted partner in Cypress.",
+        "localContext": "Cypress is known for its excellent schools, family-friendly neighborhoods, and proximity to major employment centers.",
+        "nearbyAreas": [
+          "Katy",
+          "Tomball",
+          "Jersey Village"
+        ]
+      },
+      {
+        "city": "Spring",
+        "slug": "spring-tx",
+        "state": "TX",
+        "content": "Horizon Demolition provides expert demolition services in Spring, TX, a vibrant community with a mix of older and newer homes. Our team is experienced in handling residential and commercial demolition projects, ensuring compliance with local regulations. Spring's growing population and infrastructure require reliable demolition services, and we deliver with efficiency and safety in mind. Trust Horizon Demolition for all your demolition needs in Spring.",
+        "localContext": "Spring offers a blend of rural charm and suburban convenience, with easy access to Houston and The Woodlands.",
+        "nearbyAreas": [
+          "The Woodlands",
+          "Tomball",
+          "Conroe"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-demolition": "/images/service-residential-demolition.webp",
+      "commercial-demolition": "/images/service-commercial-demolition.webp",
+      "interior-demolition": "/images/service-interior-demolition.webp",
+      "concrete-removal": "/images/service-concrete-removal.webp",
+      "swimming-pool-removal": "/images/service-swimming-pool-removal.webp",
+      "emergency-demolition": "/images/service-emergency-demolition.webp"
+    },
+    "servicesResponsive": {
+      "residential-demolition": {
+        "src": "/images/service-residential-demolition.webp",
+        "srcset": "/images/service-residential-demolition-400w.webp 400w, /images/service-residential-demolition-800w.webp 800w, /images/service-residential-demolition-1200w.webp 1200w, /images/service-residential-demolition.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-demolition": {
+        "src": "/images/service-commercial-demolition.webp",
+        "srcset": "/images/service-commercial-demolition-400w.webp 400w, /images/service-commercial-demolition-800w.webp 800w, /images/service-commercial-demolition-1200w.webp 1200w, /images/service-commercial-demolition.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "interior-demolition": {
+        "src": "/images/service-interior-demolition.webp",
+        "srcset": "/images/service-interior-demolition-400w.webp 400w, /images/service-interior-demolition-800w.webp 800w, /images/service-interior-demolition-1200w.webp 1200w, /images/service-interior-demolition.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-removal": {
+        "src": "/images/service-concrete-removal.webp",
+        "srcset": "/images/service-concrete-removal-400w.webp 400w, /images/service-concrete-removal-800w.webp 800w, /images/service-concrete-removal-1200w.webp 1200w, /images/service-concrete-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "swimming-pool-removal": {
+        "src": "/images/service-swimming-pool-removal.webp",
+        "srcset": "/images/service-swimming-pool-removal-400w.webp 400w, /images/service-swimming-pool-removal-800w.webp 800w, /images/service-swimming-pool-removal-1200w.webp 1200w, /images/service-swimming-pool-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "emergency-demolition": {
+        "src": "/images/service-emergency-demolition.webp",
+        "srcset": "/images/service-emergency-demolition-400w.webp 400w, /images/service-emergency-demolition-800w.webp 800w, /images/service-emergency-demolition-1200w.webp 1200w, /images/service-emergency-demolition.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
